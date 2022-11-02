@@ -61,6 +61,15 @@ cd mnist
 vi ncu.out
 ```
 
+# Copy out the data files
 
+a way to SCP from Burst to local system. (on NYU VPN)
+1. SCP from Burst to Greene. On Burst, issue this command:
+
+```scp <log-file-path> <user-ID>@greene-dtn.hpc.nyu.edu:/home/<user-ID/```
+
+2. SCP from Greene to local system. ON your local system, issue this command:
+	
+```scp <user-ID>@greene-dtn.hpc.nyu.edu:/home/<user-ID>/<log-file> <path-on-your-local(to save the log file)> ```
 
 
